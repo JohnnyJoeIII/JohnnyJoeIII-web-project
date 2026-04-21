@@ -1,0 +1,67 @@
+body {
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 600px; 
+    height: 300px;
+    padding-top: 20px;
+}
+h1{ 
+    font-size: large;
+    color: gray;
+}
+
+h2{
+    font-size: medium;
+    color: gray;
+
+}
+
+h3{
+    font-size: small;
+    color: gray;
+
+}
+
+h4{
+    font-size: small;
+    color: gray;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    size: 12px;
+    color: green;
+
+}
+
+li{
+transition: 0.3s;
+}
+
+li:hover{
+color: darkgreen;
+text-shadow: 0 0 10px #00b4d8;
+}
+
+li{
+padding: 20px;
+margin: 20px;
+color:lightgreen; size: 4px;
+}
+
+table, th, td{
+    border: 3.5px outset greenyellow;
+    color:green;
+    margin: 20px;
+    
+}
+
+a:hover {
+   color: yellow; 
+}  
+
+a:active {
+   color: purple;
+}   

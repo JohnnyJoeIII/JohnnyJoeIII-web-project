@@ -65,3 +65,31 @@ a:hover {
 a:active {
    color: purple;
 }   
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
